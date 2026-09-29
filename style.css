@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+marquee{
+  color: white;
+  font-size: 30px;
+  background-color: rgb(85, 92, 197);
+  padding: 10px;
+}
+.manu{
+  height: 80px;
+  background-color:black;
+  /* margin-top: 10px; */
+}
+.manu ul li a{
+  color: white;
+  font-size: 40px;
+  color:white;
+  text-decoration: none;
+  line-height: 80px;
+  display: block;
+  transition: .3s;
+  padding: 0 10px;
+  width: 100%;
+
+}
+.manu ul li {
+  
+  float: left;
+  list-style: none;
+  position: relative;
+
+}
+.manu ul li a:hover{
+  color: gold;
+  background-color: slategrey;
+  
+}
+.manu ul li ul{
+  position: absolute;
+  width: 260px;
+  left: 0%;
+  top: 100%;
+  background-color: black;
+  visibility: hidden;
+  transition: .2s;
+  opacity: 0;
+}
+.manu ul li:hover>ul{
+  visibility: visible;
+  opacity: 1;
+}
+.manu ul li ul li {
+  width: 100%;
+}
+.manu ul li ul li ul{
+  top: 0%;
+  left: 100%;
+}
+.img{
+  height: 700px;
+  background-image: url(./ll.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding-top: 20px;
+}
+p{
+  color: aliceblue;
+  text-align: center;
+  width: 1050px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.earth{
+  height: 300px;
+  background-color: darkgray;
+}
+.earth iframe{
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+}
+.form{
+padding:30px;
+height: 500px;
+margin-top: 0px;
+background-color: bisque;
+}
+.form div{
+  background-color: rgb(173, 243, 180);
+  height: 300px;
+  margin-top: 50px;
+  
+}
+.main{
+  width: 500px;
+  height: 300px;
+  background-color: firebrick;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  float: left;
+}
+.one{
+  width: 500px;
+  height: 100px;
+  background-color: forestgreen;
+}
+.item1{
+  width: 250px;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+}
+.item3{
+  width: 125px;
+  height: 100px;
+  background-color: hotpink;
+  float: left;
+
+}
+.item4{
+  width: 125px;
+  height: 100px;
+  background-color: rosybrown;
+  float: left;
+
+}
+.item2{
+  width: 250px;
+  height: 100px;
+  background-color: teal;
+  float: left;
+}
+.two{
+  width: 500px;
+  height: 100px;
+  background-color: gray;
+}
+.three{
+  width: 500px;
+  height: 100px;
+  background-color: khaki;
+}
+.flag{
+  background-color: green;
+  width: 500px;
+  height: 250px;
+  margin-bottom: 50px;
+  margin-top: 120px;
+  margin-left: 50px;
+  float: left;
+  position: relative;
+}
+.red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 250px;
+  transform: translate(-50%,-50%);
+  border-radius:50% ;
+}
+.stick{
+  background-color: brown;
+  width: 10px;
+  height: 400px;
+}
+.egg{
+  background-color: blanchedalmond;
+  width: 500px;
+  height: 250px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 30px;
+  border-radius:50% ;
+  position: relative;
+}
+.kusum{
+  position: absolute;
+  background-color: gold;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
